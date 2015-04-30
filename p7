@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8">
+
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Estilo/css</title>
+
+     <link   rel="stylesheet" href="css/style.css">
+	 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+   
+
+</head>
+<style>
+
+
+   #principal h1{
+                margin:0;
+				padding:0;
+				font-size:30px;
+				color: black;
+				font-family: Arial;
+				}
+
+    #titulo{
+			background-color: black;
+			font-family: impact;
+			color: white;
+			text-align: center;
+			font-size:50px;
+			height: 100px;
+			}
+    #barra{
+			font-size: 27px;
+			font-family: impact;
+			background-color:red;
+			color: white;
+			height: 100px;
+			}
+    .titular h2{
+				margin:0;
+				padding:0;
+				font-size:20px;
+				color:black;
+				}
+	 .titular p{
+				
+				
+				color:black;
+				}
+	
+
+    #principal img{
+					clear: both;
+					width: 75%;
+					height: 100%;
+					float: center;
+					}
+
+    .titular img{
+				float: right;
+				width: 250px;
+				height: 150px;
+				}
+    .titular {
+				clear: both;
+				}
+
+    #barra li{
+				list-style: none;
+				float: left;
+				width: 20%;
+				}
+	#opciones li{
+				list-style: none;
+				float: left;
+				width: 20%;
+				}
+    #cuerpo{
+				background-color:white;
+			}
+	.op{
+			
+			background-color: red
+			font-family:arial bold
+			
+			}
+</style>
+<body>
+	<div id="titulo">
+		El Ultimo Juego
+
+	</div>
+
+	<div id="barra">
+		</br>
+		<li>
+			Agregar
+		</li>
+
+		<li>
+			Buscar:
+		</li>
+		
+		<li>
+			Analisis
+		</li>
+		
+		<li>
+		    Noticias
+		</li>
+		
+		<li>
+		    Videos
+		</li>
+
+	</div>
+
+    </br>
+	<div id="cuerpo">
+		<div id="principal">
+			<img id="a1" src="shadow_realms-2707857.jpg" alt=""/>
+			<h1 id="titulo1"> Shadow Realms, el nuevo juego de rol de BioWare, podría haber sido cancelado</h1>
+            <p id="parrafo1">A la espera de una confirmación oficial por parte de Electronic Arts, el prometedor Shadow Realms podría haber sido cancelado según publica Game Informer, que alude a "múltiples fuentes" que señalan en la misma dirección.
+			   Desarrollado por el equipo de BioWare Austin, el mismo a cargo de Star Wars: The Old Republic, este juego de rol fue presentado durante la Gamescom que tuvo lugar en verano del año pasado en la ciudad alemana de Colonia. Allí tuvimos ocasión de probar esta interesante aventura de corte tradicional en la que cuatro jugadores deben enfrentarse al poder del Dungeon Master, encarnado por un quinto jugador.</p>
+		</div>
+        </br>
+		<div id="noticia1" class="titular">
+			<h2 id="titulo2">Super Smash Bros. para 3DS añadirá mañana su compatibilidad con los Amiibo</h2>
+			<p id="parrafo2">Nintendo ha confirmado que mañana mismo, 10 de febrero, se activará la compatibilidad de Super Smash Bros.
+				de 3DS con las exitosas figuras Amiibo, que combatirán en la portátil del mismo modo que llevan haciéndolo 
+				semanas en el título 
+				de Wii U. Para disfrutar de esta característica
+				es imprescindible contar con un lector de NFC que, de momento, solo incluye New Nintendo 3DS.
+				Se espera que más adelante la Gran N ponga a la venta un adaptador 
+				que permita a los anteriores modelos de la portátil hacer uso de esta característica. 
+				Por desgracia, no se han concretado más detales al respecto.</p>
+			<img id="foto2" src="smash_bros__nombre_temporal_-2707847.jpg" alt=""/>
+		</br>
+		</div>
+		<div id="noticia2" class="titular">
+			<h2 id="titulo3"> Capcom trabaja en varios "títulos importantes" para el próximo año fiscal</h2>
+			<p id="parrafo3">En respuesta a uno de los inversores de la compañía, Capcom ha confirmado que tienen en preparación "una serie de juegos, entre ellos títulos importantes", a estrenar entre abril de 2015 y marzo del año próximo.
+				Los nipones no han ofrecido más datos sobre estos juegos dado que todavía están "trabajando en el calendario de lanzamientos para estos juegos y nuestras previsiones de venta".
+				Recientemente dos de los productores más importantes de la compañía han destacado que Capcom tiene en preparación al menos diez videojuegos no anunciados de carácter online.</p>
+			<img id="foto3" src="file:///C:/Users/Omar/Desktop/Tarea-html/_logos_y_personajes_-2707870.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia3" class="titular">
+			<h2 id="titulo4"> Xenoblade Chronicles X incluye la función Off-TV por petición de los fans occidentales</h2>
+			<p id="parrafo4">El director de Xenoblade Chronicles X para Wii U ha confirmado que la función Off-TV mediante la cual podremos disfrutar de la acción de esta esperadísima aventura de rol directamente en la pantalla del Gamepad se introdujo a raíz de las peticiones de los fans occidentales.
+			   Koh Kojima ha destacado en Twitter que el equipo de Monolith Soft descartó inicialmente esta opción debido a la enorme cantidad de información que debía mostrarse en pantalla, pero tras recibir tantas peticiones por parte de los fans occidentales, decidieron hacer algunas pruebas para ver qué tal se desenvolvía el juego en la pantalla del Gamepad.
+			   Y nada mal debieron ir teniendo en cuenta que esta se ha convertido en otra de las características más llamativas de un ambicioso RPG que se estrenará en las tiendas japonesas a finales de abril.</p>
+			<img id="foto4" src="x_monolith_soft_wii_u__nombre_temporal_-2707843.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia4" class="titular">
+			<h2 id="titulo5">PlayStation Network tendrá una parada por mantenimiento el jueves 12 de febrero</h2>
+			<p id="parrafo5">Sony ha anunciado hace unas horas una nueva parada por mantenimiento en el servicio de PlayStation Network para el próximo lunes 13 de octubre de 2014. Más en concreto, la plataforma no estará accesible desde las 18:00 hasta las 21:30 (horario peninsular de España).
+				Según informan, durante estas habituales tareas, los usuarios no podrán utilizar los servicios de PlayStation Store para las diversas plataformas, el administrador de cuentas de PlayStation Network, el registro de cuentas de Sony Entertainment Network y PlayStation Home así como otros aspectos exclusivos de PS4.
+				Para jugar, como es común, se deberá tener iniciada la sesión antes de las 18:00 del día señalado. Igualmente, se tendrá acceso a servicios como el listado de amigos o mensajería si no hay problemas de última hora.</p>
+			<img id="foto5" src="playstation_network-2707661.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia5" class="titular">
+			<h2 id="titulo6">Este fin de semana el multijugador online de PlayStation 4 será gratuito</h2>
+			<p id="parrafo6">Desde el 13 de febrero a partir de las 7:00 h. (hora española) y durante todo el fin de semana los usuarios que no estén suscritos al servicio de pago PlayStation Plus podrán disfrutar del juego en línea de PlayStation 4 sin coste alguno.
+				El Open Multiplayer Weekend no incluye el resto de ventajas propias de este servicio de pago como los descuentos en la Store de PlayStation Network o los juegos que se ofrecen sin coste adicional de forma mensual. En este caso, Sony ha decidido tentar a los usuarios con una oferta de tres meses de suscripción a PS Plus por 9,99 euros.</p>
+			<img id="foto6" src="playstation_4-2707525.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia6" class="titular">
+			<h2 id="titulo7">Top España: FIFA 15, Just Dance 2015 y Far Cry 4 lo más vendido en enero</h2>
+			<p id="parrafo7">La Asociación Española de Videojuegos (AEVI) ha liberado el ránking de los títulos más vendidos durante el pasado mes de enero. Y tal como se esperaba, no ha habido grandes cambios este mes ante la falta de lanzamientos importantes en el mercado físico español. Así, una vez más, fue FIFA 15 el videojuego más demandado.</p>
+			<img id="foto7" src="fifa_15-2707507.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia7" class="titular">
+			<h2 id="titulo8">Sony anuncia los PS4 Days, consola más juego por 399,99 euros</h2>
+			<p id="parrafo8">Vuelven los PS4 Days. La promoción permitirá a los jugadores comprar la PlayStation 4 en un pack junto a un juego por el precio habitual de adquisición de la consola: 399,99 euros. Es decir, el juego vendrá gratis.
+			</p>
+			<img id="foto8" src="playstation_4-2707473.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia8" class="titular">
+			<h2 id="titulo9"> Shiftlings, el nuevo juego de puzles de Sierra, se estrenará a principios de marzo</h2>
+			<p id="parrafo9">Tras los buenos resultados obtenidos con Geometry Wars 3, Sierra ya prepara el lanzamiento de su próximo videojuego: Shiftlings. Una loca aventura de puzles protagonizada por dos héroes unidos por una sola manguera de aire, que deberán ingeniárselas para sortear las innumerables trampas que encontrarán en su camino.
+			   Desarrollado por el equipo de Rock Pocket Games, y con 50 niveles por superar, Shiftlings se estrenará el 3 de marzo en PC, un día después en Xbox One y el 11 de marzo en PlayStation 4.</p>
+			<img id="foto9" src="descarga.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia9" class="titular">
+			<h2 id="titulo10"> Deep Silver promete que Homefront: The Revolution saldrá adelante</h2>
+			<p id="parrafo10">Desde verano del año pasado no tenemos noticias de Homefront: The Revolution pero Deep Silver asegura que el juego sigue en marcha en las oficinas de Dambusters Studios, anteriormente conocidos como Crytek UK.
+			"Homefront: The Revolution continúa en desarrollo, ahora bajo el ala de nuestro equipo de Dambuster Studios", ha declarado el community manager de la firma, Maurice Tan. "Algunas veces recibo preguntas de los fans acerca de si este va a ser otro caso como el de Prey 2 o Duke Nukem Forever", continúa", pero tened la certeza de que el equipo continúa trabajando duro en el juego y no se va a convertir en vapourware".
+			 Dicho lo cual, seguimos esperando noticias relacionadas con este ambicioso juego de acción en primera persona que inició su desarrollo en manos de Crytek UK hace ya unos cuantos años.</p>
+			<img id="foto10" src="homefront_2-2707463.jpg" alt=""/>
+		</div>
+		</br>
+		<div id="noticia10" class="titular">
+			<h2 id="titulo11"> Nintendo trató de hacerse con los derechos de Harry Potter en 1998</h2>
+			<p id="parrafo11">La gran popularidad que atesoraron las novelas de Harry Potter casi desde el mismo instante en el que desembarcaron en todo el mundo hizo que no pocas compañías pujaran por hacerse con los derechos sobre esta licencia. Una de las cuales fue la propia Nintendo, que según informa el portal Unseen64 llegó a trabajar en varios prototipos de videojuego que enseñaron a la autora de los libros, J.K. Rowling.
+
+				Corría el año 1998. En aquel entonces, el equipo de Nintendo Software Technology aparcó su trabajo con Ridge Racer 64, Bionic Commando y Crystalis para dedicarse de pleno a desarrollar dos prototipos jugables basados en el joven mago: una aventura en tercera persona, que iba a ser el proyecto principal, y un juego de menor envergadura centrado exclusivamente en los partidos de Quidditch.
+
+				
+			</p>
+			<img id="foto11" src="harry_potter_y_las_reliquias_de_la_muerte__parte_ii-2707445.jpg" alt=""/>
+		</div>
+</div>
+</br></br></br></br></br></br></br></br></br>
+<div id = "opciones" class = "op">
+	<li>
+		Siguenos en: Twitter: @ultimojuego Facebook: Ultimo juego
+	</li>
+	<li>
+		Ps4
+	</li>
+	<li>
+		XboxOne
+	</li>
+	<li>
+		WiiU
+	</li>
+</div>
+<script language="javascript" type="text/javascript">
+ 
+ 
+	function onSuccess(data, status)
+    {
+       alert(data);	
+		var datos = data.split("|")	
+		$( "#titulo1" ).html( datos[2] );
+		$( "#parrafo1" ).html( datos[3] );
+		$( "#a1" ).html( datos[4] );
+		
+		$( "#titulo2" ).html( datos[7] );
+		$( "#parrafo2" ).html( datos[8] );
+		$( "#foto2" ).html( datos[9] );
+		
+		$( "#titulo3" ).html( datos[12] );
+		$( "#parrafo3" ).html( datos[13] );
+		$( "#foto3" ).html( datos[14] );
+		
+		$( "#titulo4" ).html( datos[17] );
+		$( "#parrafo4" ).html( datos[18] );
+		$( "#foto4" ).html( datos[19] );
+		
+		$( "#titulo5" ).html( datos[22] );
+		$( "#parrafo5" ).html( datos[23] );
+		$( "#foto5" ).html( datos[24] );
+		
+		$( "#titulo6" ).html( datos[27] );
+		$( "#parrafo6" ).html( datos[28] );
+		$( "#foto6" ).html( datos[29] );
+		
+		$( "#titulo7" ).html( datos[32] );
+		$( "#parrafo7" ).html( datos[33] );
+		$( "#foto7" ).html( datos[34] );
+		
+		$( "#titulo8" ).html( datos[37] );
+		$( "#parrafo8" ).html( datos[38] );
+		$( "#foto8" ).html( datos[39] );
+		
+		$( "#titulo9" ).html( datos[42] );
+		$( "#parrafo9" ).html( datos[43] );
+		$( "#foto9" ).html( datos[44] );
+		
+		$( "#titulo10" ).html( datos[47] );
+		$( "#parrafo10" ).html( datos[48] );
+		$( "#foto10" ).html( datos[49] );
+		
+		$( "#titulo11" ).html( datos[52] );
+		$( "#parrafo11" ).html( datos[53] );
+		$( "#foto11" ).html( datos[54] );
+
+		
+		
+    }
+ 
+    function onError(data, status)
+    {
+        alert("Error cargando. Intente de nuevo.");
+    }       
+ 
+    $(document).ready(function() {
+ 
+            $.ajax({
+                type: "POST",
+                url: "http://rufi.com.ve/padron.php",
+                cache: false,
+                success: onSuccess,
+                error: onError
+            });
+ 
+            return false;
+ 
+    });
+ 
+</script>
+
+ 
+</body>
+
+</html>
+
